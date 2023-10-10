@@ -1,0 +1,84 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #94d3a2; /* Light blue background color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.Reg-h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #0366d6; /* Blue text color */
+}
+
+form {
+  max-height: 450px; /* Adjust the height as needed */
+  overflow-y: auto;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #0366d6; /* Blue text color */
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #0366d6; /* Blue border color */
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #0e4d96; /* Blue background color */
+  color: rgb(158, 218, 241);
+  cursor: pointer;
+  width: 100%; /* Set the button width to fill the container */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #064aa2; /* Darker blue color on hover */
+}
+
+.password-match-valid {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.password-match-invalid {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.loading {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #0366d6; /* Blue text color */
+}
+
+.success-message {
+  color: rgb(21, 223, 21);
+  margin-bottom: 10px;
+}
+
+.Submit {
+  background-color: #149109; /* Blue background color */
+  color: hsl(0, 0%, 98%);
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #07b107; /* Darker blue color on hover */
+}
